@@ -1,0 +1,31 @@
+create table business(
+bid int not null auto_increment primary key,
+bname varchar(40) not null,
+bemail varchar(40) not null,
+ph1 varchar(10) not null,
+ph2 varchar(10) default null,
+floor int not null,
+description text default null,
+mall varchar(20) not null,
+shopno int default null,
+password varchar(20) not null,
+cid int not null,
+city varchar(20) not null,
+stime timestamp default now(),
+constraint fk1 foreign key(cid) references category(cid));
+
+
+create table login(
+username varchar(40) primary key,
+password varchar(40));
+
+create table discount(
+did int not null auto_increment primary key,
+dname text,
+ddesc text default null,
+bid int not null,
+dtime timestamp default now(),
+cid int not null,
+expire int not null,
+constraint fk2 foreign key(bid) references business(bid)
+constraint fk3 foreign key(cid) references category(cid));

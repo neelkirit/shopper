@@ -1,0 +1,1364 @@
+body{
+	margin:0 auto;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:white;
+}
+
+
+.main{
+width:100%;
+min-height:550px;
+background:#d2e1e1;
+border:solid 1px trasnparent;
+display:block;
+}
+
+
+
+.main  #navbar{
+	width:980px;
+		min-height:80px;
+		margin:0 auto;
+		border:none;
+		padding:0;
+		display:block;
+		position:relative;
+		top:0px;
+}
+
+#navbar .nav-logo{
+display:inline;
+border:solid 1px #d7756c;
+background-color:#d7756c;
+width:16%;
+height:79px;
+float:left;
+margin-top:0px;
+text-align:center;
+line-height:67px;
+color:white;
+cursor:pointer;
+font-size:27px;
+font-family:verdana;
+}
+
+
+
+#navbar .nav1{
+display:inline;
+border:solid 1px white;
+padding: 0 26px;
+height:40px;
+float:left;
+margin-left:38%;
+margin-top:25px;
+text-align:center;
+font-weight:300;
+line-height:37px;
+color:white;
+cursor:pointer;
+box-sizing: border-box;
+-webkit-border-radius: 999em;
+-moz-border-radius: 999em;
+border-radius: 999em;
+-webkit-transition: .1s background-color,0.1s border-color,0.1s color;
+-moz-transition: .1s background-color,0.1s border-color,0.1s color;
+-ms-transition: .1s background-color,0.1s border-color,0.1s color;
+-o-transition: .1s background-color,0.1s border-color,0.1s color;
+transition: .1s background-color,0.1s border-color,0.1s color;
+}
+
+div#nav-menu:hover{
+background: #d7756c;
+border-color:transparent;
+color: #fff;
+}
+
+div#nav-menu:active{
+background: #d7756c;
+border-color:transparent;
+color: #fff;
+}
+
+
+#navbar .nav2{
+display:inline;
+border:solid 1px white;
+padding: 0 26px;
+height:40px;
+float:left;
+margin-left:3%;
+margin-top:25px;
+text-align:center;
+font-weight:300;
+line-height:37px;
+color:white;
+cursor:pointer;
+box-sizing: border-box;
+-webkit-border-radius: 999em;
+-moz-border-radius: 999em;
+border-radius: 999em;
+-webkit-transition: .1s background-color,0.1s border-color,0.1s color;
+-moz-transition: .1s background-color,0.1s border-color,0.1s color;
+-ms-transition: .1s background-color,0.1s border-color,0.1s color;
+-o-transition: .1s background-color,0.1s border-color,0.1s color;
+transition: .1s background-color,0.1s border-color,0.1s color;
+}
+
+#navbar .nav3{
+display:inline;
+border:solid 1px white;
+padding: 0 26px;
+height:40px;
+float:left;
+margin-left:3%;
+margin-top:25px;
+text-align:center;
+font-weight:300;
+line-height:37px;
+color:white;
+cursor:pointer;
+box-sizing: border-box;
+-webkit-border-radius: 999em;
+-moz-border-radius: 999em;
+border-radius: 999em;
+-webkit-transition: .1s background-color,0.1s border-color,0.1s color;
+-moz-transition: .1s background-color,0.1s border-color,0.1s color;
+-ms-transition: .1s background-color,0.1s border-color,0.1s color;
+-o-transition: .1s background-color,0.1s border-color,0.1s color;
+transition: .1s background-color,0.1s border-color,0.1s color;
+}
+
+.main  #pre{
+	width:980px;
+		height:280px;
+		margin:0 auto;
+		border:none;
+		padding:0;
+		display:block;
+		position:relative;
+		top:150px;
+				z-index:6;
+}
+
+#pre .searchbox{
+display:block;
+width:70%;
+height:50px;
+border:none;
+float:left;
+margin-left:14%;
+margin-top:65px;
+}
+
+.searchbox #search{
+display:block;
+width:80%;
+height:50px;
+border:solid 1px transparent;
+padding:15px;
+float:left;
+outline:none;
+}
+
+#find{
+width:20%;
+height:50px;
+float:left;
+outline:none;
+cursor:pointer;
+background: #d7756c;
+border-color:transparent;
+color: #fff;
+}
+
+#pre #categories{
+display:block;
+width:75%;
+height:75px;
+border:none;
+float:left;
+margin-left:14%;
+margin-top:35px;
+}
+
+
+#categories input[type=radio] {
+display:none;
+margin:0px;
+}
+
+
+#categories input[type=radio] + label {
+    display:inline-block;
+    margin:-5px;
+    padding: 28px 14px;
+	font-size:13px;
+    background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+	margin-top:1px;
+    margin-left:0px;	
+	color:#333;
+	}
+
+#categories input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#d7756c;
+	color:#fff;
+}
+
+.download{
+background-color:#fafafa;
+width:99.98	%;
+min-height:830px;
+border:none;
+display:block;
+}
+
+.download #download-content{
+	width:980px;
+		height:750px;
+		margin:0 auto;
+		border:none;
+		padding:0;
+		display:block;
+		position:relative;
+		top:10px;
+
+}
+
+#download-content #install-app{
+display:block;
+float:left;
+width:53%;
+border:none;
+height:160px;
+margin-top:100px;
+}
+
+#install-app h3{
+font-size:28px;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+margin:0;
+letter-spacing:1px;
+font-weight:600;
+
+}
+
+
+#install-app  a{
+text-decoration:none;
+}
+
+#install-app .iphone-app{
+width:240px;
+height:85px;
+border:solid 1px transparent;
+border-radius:8px;
+float:left;
+display:inline;
+margin-left:0px;
+margin-top:15px;
+background-color:#d7756c;
+overflow:hidden;
+background-image: url(img/icon-apple-white.png);
+background-repeat: no-repeat;
+background-position: 20px center ;
+}
+
+#install-app .iphone-app:hover{
+background-color:#333;
+}
+
+.iphone-app span{
+float:left;
+margin-top:12px;
+margin-left:32%;
+font-size:20px;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+color:#fff;
+}
+
+
+#install-app .android-app{
+width:240px;
+height:85px;
+border:solid 1px transparent;
+border-radius:8px;
+float:left;
+display:inline;
+margin-left:20px;
+margin-top:15px;
+background-color:#d7756c;
+overflow:hidden;
+background-image: url(img/icon-android-white.png);
+background-repeat: no-repeat;
+background-position: 20px center ;
+}
+
+.android-app span{
+float:left;
+margin-top:12px;
+margin-left:32%;
+font-size:20px;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+color:#fff;
+}
+
+#install-app .android-app:hover{
+background-color:#333;
+}
+
+
+#download-content #iphone-interface{
+display:block;
+float:left;
+width:40%;
+border:none;
+height:735px;
+margin-top:10px;
+margin-left:6%;
+}
+
+/* iPhone 5 */
+
+#iphone-interface b{
+	display:block;
+	position: relative;
+	margin:20px auto;
+	padding:0;
+	width:335px;
+	height:700px;
+	border-radius:60px;
+	border-top:#333 5px solid;
+	border-right:#474747 5px solid;
+	border-left:#333 5px solid;
+	border-bottom:#333 5px solid;
+	background-color:#000;
+	background-image:
+		-webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8) 100%),
+		-webkit-linear-gradient(200deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.04) 35%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 100%),
+		-webkit-linear-gradient(left, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 95%, rgba(0,0,0,1) 95%),
+		-webkit-linear-gradient(top, rgba(0,0,0,1) 13%, #d2e1e1 5%, #d2e1e1 50%, #d2e1e1 85%, rgba(0,0,0,1) 85%);		
+	background-image:
+		-moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8) 100%),
+		-moz-linear-gradient(200deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.4) 35%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 100%),
+		-moz-linear-gradient(left, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 95%, rgba(0,0,0,1) 95%),
+		-moz-linear-gradient(top, rgba(0,0,0,1) 13%, #d2e1e1 5%, #d2e1e1 50%, #d2e1e1 85%, rgba(0,0,0,1) 85%);
+	background-image:
+		linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8) 100%),
+		linear-gradient(200deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.4) 35%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 100%),
+		linear-gradient(left, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 95%, rgba(0,0,0,1) 95%),
+		linear-gradient(top, rgba(0,0,0,1) 13%, #d2e1e1 5%, #d2e1e1 50%, #d2e1e1 85%, rgba(0,0,0,1) 85%);	
+		
+	box-shadow:#666 0px 0px 0px;
+}
+
+b:before{
+	content:"";
+	display: block;
+	position: absolute;
+	top:50px;
+	left:50%;
+	margin-left:-32.5px;
+	width:65px;
+	height:8px;
+	background:#333;
+	border-radius:10px;
+	border-top: #000 4px solid;
+	border-bottom:#212121 4px solid;
+	border-left:#000 4px solid;
+	border-right:#333 4px solid;
+	box-shadow: inset #000 0px 0px 7px;
+}
+
+b:after{
+	content: "";
+	color:red;
+	font-size: 80px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom:15px;
+	margin:0 0 0 130px;
+	width:75px;
+	height:75px;
+	border-radius:100%;
+	background-image:
+		-webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.12) 52%, rgba(255,255,255,0.3) 100%),
+		-webkit-radial-gradient(26px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(27px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(28px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(29px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(30px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(31px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(32px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(33px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(34px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(35px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(36px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(37px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(38px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(39px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(40px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(41px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(42px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(43px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(44px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(45px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(46px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(47px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(48px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(48px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(48px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		-webkit-radial-gradient(48px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(48px 31px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(48px 32px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(48px 33px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(48px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 37px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(48px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(48px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(48px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(48px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		-webkit-radial-gradient(48px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		-webkit-radial-gradient(48px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		-webkit-radial-gradient(48px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(47px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(46px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(45px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(44px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(43px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(42px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(41px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(40px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(39px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(38px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(37px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(36px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(35px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(34px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(33px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(32px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(31px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-webkit-radial-gradient(30px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(29px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(28px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(27px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(26px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(26px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-webkit-radial-gradient(26px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(26px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),	
+		-webkit-radial-gradient(26px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),			
+		-webkit-radial-gradient(26px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-webkit-radial-gradient(26px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(26px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 37px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(26px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 33px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(26px 32px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 31px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-webkit-radial-gradient(26px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-webkit-radial-gradient(26px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%)				
+		;
+	background-image:
+		-moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.12) 52%, rgba(255,255,255,0.3) 100%),
+		-moz-radial-gradient(26px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(27px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(28px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(29px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(30px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(31px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(32px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(33px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(34px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(35px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(36px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(37px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(38px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(39px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(40px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(41px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(42px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(43px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(44px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(45px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(46px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(47px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(48px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(48px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(48px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		-moz-radial-gradient(48px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(48px 31px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(48px 32px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(48px 33px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(48px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 37px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(48px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(48px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(48px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(48px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		-moz-radial-gradient(48px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		-moz-radial-gradient(48px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		-moz-radial-gradient(48px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(47px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(46px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(45px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(44px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(43px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(42px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(41px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(40px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(39px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(38px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(37px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(36px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(35px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(34px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(33px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(32px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(31px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		-moz-radial-gradient(30px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(29px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(28px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(27px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(26px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(26px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		-moz-radial-gradient(26px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(26px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),	
+		-moz-radial-gradient(26px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),			
+		-moz-radial-gradient(26px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		-moz-radial-gradient(26px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(26px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 37px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(26px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 33px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(26px 32px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 31px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		-moz-radial-gradient(26px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		-moz-radial-gradient(26px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%)				
+		;
+	background-image:
+		linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.12) 52%, rgba(255,255,255,0.3) 100%),
+		radial-gradient(26px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(27px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(28px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(29px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(30px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(31px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(32px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(33px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(34px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(35px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(36px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(37px 25px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(38px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(39px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(40px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(41px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(42px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(43px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(44px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(45px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(46px 25px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(47px 26px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(48px 27px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(48px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(48px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		radial-gradient(48px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(48px 31px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(48px 32px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(48px 33px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(48px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 37px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(48px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(48px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(48px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(48px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		radial-gradient(48px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 1px),
+		radial-gradient(48px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),				
+		radial-gradient(48px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(47px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(46px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(45px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(44px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(43px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(42px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(41px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(40px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(39px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(38px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(37px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(36px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(35px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(34px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(33px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(32px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(31px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),		
+		radial-gradient(30px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(29px 47px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(28px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(27px 47px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(26px 46px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(26px 45px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),		
+		radial-gradient(26px 44px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(26px 43px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),	
+		radial-gradient(26px 42px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),			
+		radial-gradient(26px 41px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2%),
+		radial-gradient(26px 40px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 39px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(26px 38px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 37px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 36px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(26px 35px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 34px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 33px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(26px 32px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 31px, circle, #5b6064 0%, #5b6064 2.5%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 30px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),				
+		radial-gradient(26px 29px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%),
+		radial-gradient(26px 28px, circle, #5b6064 0%, #5b6064 2%, rgba(0,0,0,0) 2.5%)				
+		;
+	border:#202020 1px solid;
+	box-shadow:#333 0px -620px 0px -34px,
+	
+	/* Lock button */
+	#000 0px -620px 0px -31px,
+	#000 55px -652px 0px -36px,
+	#000 58px -652px 0px -36px,
+	#000 60px -652px 0px -36px,
+	#000 61px -652px 0px -36px,
+	#000 64px -652px 0px -36px,
+	#000 67px -652px 0px -36px,
+	#000 70px -652px 0px -36px,
+	#000 73px -652px 0px -36px,
+	#000 76px -652px 0px -36px,
+	#000 79px -652px 0px -36px,
+	#000 82px -652px 0px -36px,
+	#000 85px -652px 0px -36px,
+	#000 88px -652px 0px -36px,
+	#000 91px -652px 0px -36px,
+	#000 94px -652px 0px -36px,
+	#000 97px -652px 0px -36px,
+	#000 100px -652px 0px -36px,
+	#000 103px -652px 0px -36px,
+	#000 105px -652px 0px -36px,
+	#000 108px -652px 0px -36px,
+	/* side dots */
+	#000 -170px -580px 0px -36px,
+	#000 -170px -25px 0px -36px,
+	#333 169px -580px 0px -36px,
+	#333 169px -25px 0px -36px,
+	/* Side buttons */
+	/* Top button */
+	#333 -174px -550px 0px -36px,
+	#333 -174px -548px 0px -36px,
+	#333 -174px -545px 0px -36px,
+	#333 -174px -542px 0px -36px,
+	#333 -174px -539px 0px -36px,
+	#333 -174px -536px 0px -36px,
+	#333 -174px -534px 0px -36px,
+	#333 -174px -531px 0px -36px,
+	#333 -174px -528px 0px -36px,
+	#333 -174px -526px 0px -36px,
+	/* 2nd button */
+	#333 -174px -470px 0px -36px,
+	#333 -174px -468px 0px -36px,
+	#333 -174px -465px 0px -36px,
+	#333 -174px -462px 0px -36px,
+	#333 -174px -459px 0px -36px,
+	#333 -174px -456px 0px -36px,
+	#333 -174px -454px 0px -36px,
+	#333 -174px -451px 0px -36px,
+	#333 -174px -458px 0px -36px,
+	#333 -174px -456px 0px -36px,
+	/* 3rd */
+	#333 -174px -410px 0px -36px,
+	#333 -174px -418px 0px -36px,
+	#333 -174px -415px 0px -36px,
+	#333 -174px -412px 0px -36px,
+	#333 -174px -409px 0px -36px,
+	#333 -174px -406px 0px -36px,
+	#333 -174px -404px 0px -36px,
+	#333 -174px -401px 0px -36px,
+	#333 -174px -408px 0px -36px,
+	#333 -174px -406px 0px -36px
+	;
+}
+
+.about{
+background-color:#d7756c;
+width:99.98	%;
+min-height:630px;
+border:none;
+display:block;
+}
+
+.about #about-content{
+	width:980px;
+		height:620px;
+		margin:0 auto;
+		border:solid 1px transparent;
+		padding:0;
+		display:block;
+		position:relative;
+		top:3px;
+
+}
+
+.one-third{
+display:block;
+width:32.5%;
+min-height:350px;
+border:none;
+float:left;
+margin-top:60px;
+}
+
+.one-third .service1 {
+text-align: center;
+float: left;
+height:350px;
+border:none;
+word-wrap:break-word;
+color:#fff;
+letter-spacing:1px;
+font-size:20px;
+}
+
+.service1 img {
+background-repeat: no-repeat;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.service1 img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.two-third{
+display:block;
+width:32.5%;
+min-height:350px;
+border:none;
+float:left;
+margin-left:12px;
+margin-top:60px;
+}
+
+.two-third .service2 {
+text-align: center;
+float: left;
+height:350px;
+border:none;
+word-wrap:break-word;
+color:#fff;
+letter-spacing:1px;
+font-size:20px;
+}
+
+.service2 img {
+background-repeat: no-repeat;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.service2 img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.three-third{
+display:block;
+width:32.5%;
+height:350px;
+border:none;
+float:left;
+margin-left:12px;
+margin-top:60px;
+}
+
+.three-third .service3 {
+text-align: center;
+float: left;
+height:350px;
+border:none;
+word-wrap:break-word;
+color:#fff;
+letter-spacing:1px;
+font-size:20px;
+}
+
+.service3 img {
+background-repeat: no-repeat;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.service3 img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+.footer{
+background-color:#f5f5f5;
+width:99.98	%;
+min-height:500px;
+border:none;
+display:block;
+}
+
+.footer #footer-content{
+	width:980px;
+		height:490px;
+		margin:0 auto;
+		border:none;
+		padding:0;
+		display:block;
+		position:relative;
+		top:3px;
+
+}
+
+#footer-content #install-app-foot{
+display:block;
+float:left;
+width:53%;
+border:none;
+height:100px;
+margin-top:100px;
+
+}
+
+#install-app-foot  a{
+text-decoration:none;
+}
+
+#install-app-foot .iphone-app-foot{
+width:240px;
+height:85px;
+border:solid 1px transparent;
+border-radius:8px;
+float:left;
+display:inline;
+margin-left:0px;
+background-color:#92C8D1;
+overflow:hidden;
+background-image: url(img/icon-apple-white.png);
+background-repeat: no-repeat;
+background-position: 20px center ;
+}
+
+#install-app-foot .iphone-app-foot:hover{
+background-color:#333;
+}
+
+.iphone-app-foot span{
+float:left;
+margin-top:12px;
+margin-left:32%;
+font-size:20px;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+color:#fff;
+}
+
+
+#install-app-foot .android-app-foot{
+width:240px;
+height:85px;
+border:solid 1px transparent;
+border-radius:8px;
+float:left;
+display:inline;
+margin-left:20px;
+background-color:#92C8D1;
+overflow:hidden;
+background-image: url(img/icon-android-white.png);
+background-repeat: no-repeat;
+background-position: 20px center ;
+}
+
+.android-app-foot span{
+float:left;
+margin-top:12px;
+margin-left:32%;
+font-size:20px;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+color:#fff;
+}
+
+#install-app-foot .android-app-foot:hover{
+background-color:#333;
+}
+
+#footer-content #social{
+display:block;
+float:left;
+width:30%;
+border:none;
+height:125px;
+margin-top:80px;
+margin-left:15%;
+}
+
+#social .social-t{
+display:inline-block;
+margin-top:0%;
+margin-left:0%;
+	width: 120px;
+	height: 120px;
+	border-radius: 150px;
+	border:solid 1px #3a92c8;
+	background-color:#3a92c8;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-image: url(img/icon-twitter.png);
+	background-repeat:no-repeat;
+background-position:center 13px;
+
+}
+
+#social .social-f{
+display:inline-block;
+margin-top:0%;
+margin-left:10%;
+	width: 120px;
+	height: 120px;
+	border-radius: 150px;
+	border:solid 1px #3b5998;
+	background-color:#3b5998;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-image: url(img/icon-fb.png);
+	background-repeat:no-repeat;
+background-position:center 13px;
+}
+
+.footend{
+display:inline-block;
+width:95%;
+height:50px;
+border:none;
+margin:0;
+float:left;
+margin-top:120px;
+}
+
+.footend .cnt{
+display:inline;
+margin-left:0%;
+color:#92C8D1;
+font-size:19px;
+letter-spacing:1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.footend .blg{
+display:inline;
+margin-left:3%;
+color:#92C8D1;
+font-size:19px;
+letter-spacing:1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.footend .tmu{
+display:inline;
+margin-left:3%;
+color:#92C8D1;
+font-size:19px;
+letter-spacing:1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.footend .prp{
+display:inline;
+margin-left:3%;
+color:#92C8D1;
+font-size:19px;
+letter-spacing:1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+.footend span{
+display:inline;
+margin-right:1%;
+float:right;
+color:#92C8D1;
+font-size:19px;
+letter-spacing:1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+
+
+
+.lightbox{
+ /* set it to fill the whil screen */
+    width:100%; 
+    height:100%;
+    
+    /* transparency for different browsers */
+    background:rgba(0, 0, 0, 0.59);	
+    /* make sure it appear behind the dialog box but above everything else */
+    position:absolute; 
+    top:0; left:0; 
+    z-index:6000; 
+    /* hide it by default */
+    display:none;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.lightbox .dialog-box{
+display:block;
+position:relative;
+top:70px;
+left:29%;
+width:747px;
+height:720px;
+border:solid 1px;
+z-index:6000;
+
+background-color: #f5f5f5;
+border: 1px solid #999;
+background-clip: padding-box;
+-webkit-box-shadow: 0 4px 12px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.5);
+box-shadow: 0 4px 12px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.5);
+z-index:7000;
+}
+
+.dialog-box #dialog-header{
+width:100%;
+height:54px;
+border-bottom:solid 1px #fff;
+background-color: #fff;
+
+}
+
+
+#dialog-header input {
+    position: absolute;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+
+#dialog-header .tab-label-1 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 150px;
+    color: #333;
+    font-weight: 300;
+    padding-left:12px;
+}
+ 
+#dialog-header .tab-label-2 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 75px;
+    color: #333;
+    font-weight: 300;
+    padding-left:20px;
+}
+
+#dialog-header .tab-label-3 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 70px;
+    color: #333;
+    font-weight: 300;
+    padding-left:20px;
+}
+
+#dialog-header .tab-label-4 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 140px;
+    color: #333;
+    font-weight: 300;
+    padding-left:15px;
+}
+
+#dialog-header .tab-label-5 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 160px;
+    color: #333;
+    font-weight: 300;
+    padding-left:15px;
+}
+  
+#dialog-header .tab-label-6 {
+background-color: #fff;
+    border-color:none;
+    cursor:pointer;
+    font-size: 13px;
+    line-height: 50px;
+    height: 54px;
+    position: relative;
+    float: left;
+    display: block;
+    width: 55px;
+    color: #333;
+    font-weight: 300;
+    padding-left:15px;
+}
+ 
+  
+#dialog-header input:hover + label {
+background-color: #fff;
+	
+}
+ 
+
+
+
+
+#dialog-header input:checked + label {
+    background: #d7756c;
+    color:#fff;
+}
+
+
+
+.dialog-box .dialog-content{
+background-color:#f5f5f5;
+border:none;
+border-bottom:solid 1px #d9d9d9;
+display:block;
+width:100%;
+height:600px;
+max-height:600px;
+float:left;
+
+}
+
+
+.dialog-content ul{
+margin:0;
+padding:0;
+width:100%;
+height:600px;
+border:none;
+overflow:auto;
+}
+
+.dialog-content ul li{
+width:99.9%;
+min-height:100px;
+border-bottom:solid 1px #d9d9d9;
+margin:0;
+padding:0;
+display:block;
+background-color:white;
+float:left;
+}
+
+li #category-pic{
+float:left;
+margin-top:17px;
+margin-left:3%;
+width:60px;
+height:60px;
+border:solid 1px #d9d9d9;
+border-radius:4px;	
+display:block;
+}
+
+li #product-content{
+display:block;
+float:left;
+margin-left:2%;
+margin-top:15px;
+width:68%;
+border:none;
+min-height:80px;
+word-wrap:break-word;
+}
+
+#product-content span{
+color:#333;
+font-weight:600;
+font-size:17px;
+}
+#product-content #product-offer-content{
+color:#333;
+font-weight:600;
+font-size:14px;
+display:block;
+margin-top:10px;
+color:#333;
+}
+
+#product-content #mall-name{
+color:#333;
+font-weight:600;
+display:block;
+margin-top:12px;
+font-size:14px;
+color:#333;
+letter-spacing:1px;
+padding-bottom:12px;
+}
+
+#mall-name span {
+color:#92C8D1;
+font-weight:700;
+font-size:13px;
+letter-spacing:1px;
+}
+
+li #product-mall-floor{
+display:block;
+float:left;
+margin-left:2%;
+margin-top:15px;
+width:13%;
+border:none;
+height:80px;
+}
+
+#product-mall-floor span{
+color:#333;
+font-weight:700;
+font-size:17px;
+letter-spacing:1px;
+
+float:left;
+margin-left:10px;
+}
+
+#product-mall-floor p{
+color:#333;
+font-weight:700;
+font-size:30px;
+letter-spacing:1px;
+line-height:42px;
+text-align:center;
+}
+
+.dialog-box .dialog-footer{
+background-color:#fff;
+border:none;
+display:block;
+width:100%;
+height:50px;
+}
+
+.dialog-footer #close{
+padding:10px 19px;
+float:right;
+margin-top:11px;
+margin-right:30px;
+cursor:pointer;
+background-color:#d7756c;
+color:white;
+outline:none;
+border:solid 1px #d7756c;
+border-radius:3px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4),inset 0 0px 0 rgba(255,255,255,.5);
+box-shadow: 0 1px 1px rgba(0,0,0,.4),inset 0 0px 0 rgba(255,255,255,.5);
+}
+
+
+
